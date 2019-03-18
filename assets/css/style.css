@@ -1,0 +1,47 @@
+body {
+    background: url(../images/CrystalBackground.jpg);
+    margin:0 auto;
+}
+
+.crystal {
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke;
+}
+header {
+    background-color: #7e354d;
+    color:whitesmoke;
+    width: 20%;
+    padding:1px;
+    
+
+}
+#holdoff {
+    background-color: #E6E6FA;
+    width:20%;
+    font-size:17px;
+    color: #008080;
+    padding: 8px;
+}
+#random {
+    background-color: #66CDAA;
+    color: #9370DB;
+    width:20%;
+    height:110px;
+}
+#score {
+    background-color: #87CEFA;
+    width: 10%;
+    height:80px;
+}
+#Displaytotal {
+    background-color: #5F9EA0;
+    color:whitesmoke;
+    width: 15%;
+}
+#total {
+    background-color: #5F9EA0;
+    color:whitesmoke;
+    width: 20%;
+    height:65px;
+}
