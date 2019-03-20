@@ -3,7 +3,7 @@ body {
 
 }
 
-.crystal {
+#btn1, #btn2, #btn3, #btn4 {
     height: 200px;
     width: 150px;
     background-color: whitesmoke;
@@ -45,5 +45,18 @@ header {
     color:whitesmoke;
     width: 20%;
     height:65px;
-    margin:
+}
+
+h1 {
+    font-style: oblique;
+    font-size: 30px;
+}
+
+p {
+    font-style: serif;
+    font-size:20px;
+}
+
+#random {
+    font-size:40px;
 }

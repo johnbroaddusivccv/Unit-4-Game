@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--CSS-->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
     <title>Crystal Collector</title>
 </head>
 <body>
@@ -22,11 +26,11 @@
     <br>
 <div id="numberContainer">
 <!--Random Number div--><br>
-    <div id="random">RandomNumberBox></div>
+    <div id="random">RandomNumberBox</div>
     <div id ="score">
         
-        <span id="count">Wins:</span>
-        <span id="count">Loses:</span>
+        <span id="count1">Wins:</span><br><br>
+        <span id="count2">Loses:</span>
     </div>
     <br>
 <!--Score Count-->
@@ -34,10 +38,10 @@
 </div>
 <!--Assortment of Crystal Images-->
     <div id="container">
-        <img class="crystal" src="assets/images/greencrystal.png">
-        <img class="crystal" src="assets/images/redcrystal.png">
-        <img class="crystal" src="assets/images/AcornImage.png">
-        <img class="crystal" src="assets/images/RisingStar.png">
+        <img id="btn1" src="assets/images/greencrystal.png">
+        <img id="btn2" src="assets/images/redcrystal.png">
+        <img id="btn3" src="assets/images/AcornImage.png">
+        <img id="btn4" src="assets/images/RisingStar.png">
     </div>
 
 <!--Display total score-->
@@ -45,7 +49,7 @@
 <br>
 
 <!--Your total score-->
-    <div id="total">#</div>
+    <div id="total"></div>
 
 
 
