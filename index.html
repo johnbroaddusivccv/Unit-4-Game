@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!--CSS-->
@@ -7,53 +8,52 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="assets/javascript/game.js"></script>
+
     <title>Crystal Collector</title>
 </head>
+
 <body>
-<header>
-    <h1>Crystal Collector</h1>
-</header>
-<br>
-<!--Rules for the game-->
+    <header>
+        <h1>Crystal Collector</h1>
+    </header>
+    <br>
+    <!--Rules for the game-->
     <div id="holdoff">
         <p>You will be given a random number at the start of the game.</p>
-        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-        <p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            total score.</p>
+        <p>You win the game by matching your total score to a random number, you lose the game if your total score goes
+            above the random number.</p>
         <p>The value of each crystal is hidden from you until you click on it.</p>
         <p>Each time when the game starts, the game will change the values of each crystal.</p>
     </div>
     <br>
-<div id="numberContainer">
-<!--Random Number div--><br>
-    <div id="random">RandomNumberBox</div>
-    <div id ="score">
-        
-        <span id="count1">Wins:</span><br><br>
-        <span id="count2">Loses:</span>
+    <div id="numberContainer">
+        <!--Random Number div--><br>
+        <div id="random">RandomNumberBox</div>
+        <div id="score">
+
+            <h1> Wins: <span id="wins"> 0</span></h1>
+            <h1> Loses:<span id="loses"> 0</span></h1>
+        </div>
+        <br>
+        <!--Score Count-->
+
     </div>
-    <br>
-<!--Score Count-->
-    
-</div>
-<!--Assortment of Crystal Images-->
-    <div id="container">
-        <img id="btn1" src="assets/images/greencrystal.png">
-        <img id="btn2" src="assets/images/redcrystal.png">
-        <img id="btn3" src="assets/images/AcornImage.png">
-        <img id="btn4" src="assets/images/RisingStar.png">
+    <!--Assortment of Crystal Images-->
+    <div id="container"></div>
+
+    <!--Display total score-->
+    <div>
+        <h1>Your Total Score Is:<span id="total">0</span></h1>
     </div>
 
-<!--Display total score-->
-    <div id="Displaytotal">Your Total Score Is:</div>
-<br>
-
-<!--Your total score-->
-    <div id="total"></div>
+    <!--Your total score-->
 
 
 
 
-<script src="assets/javascript/game.js"></script>
+    <script src="assets/javascript/game.js"></script>
 </body>
+
 </html>
