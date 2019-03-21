@@ -1,9 +1,9 @@
 body {
     background: url(../images/CrystalBackground.jpg);
-    margin:0 auto;
+
 }
 
-.crystal {
+#btn1, #btn2, #btn3, #btn4 {
     height: 200px;
     width: 150px;
     background-color: whitesmoke;
@@ -38,10 +38,30 @@ header {
     background-color: #5F9EA0;
     color:whitesmoke;
     width: 15%;
+    height: 30px;
 }
 #total {
     background-color: #5F9EA0;
     color:whitesmoke;
     width: 20%;
     height:65px;
+}
+
+h1 {
+    font-style: oblique;
+    font-size: 30px;
+}
+
+p {
+    font-style: serif;
+    font-size:20px;
+}
+
+#random {
+    font-size:40px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
 }
