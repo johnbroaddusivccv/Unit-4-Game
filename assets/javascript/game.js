@@ -25,3 +25,5 @@ resetGame();
         totalSum += parseInt($(this).attr("crystalValue"));
         $('#total').text(totalSum);
     })
+
+    
