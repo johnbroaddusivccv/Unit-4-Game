@@ -1,7 +1,10 @@
-    var totalSum = 0; 
+    var totalSum = 0;
+    var wins = 0;
+    var loses = 0;
     var random;
     var crystalArr = ["assets/images/greencrystal.png", "assets/images/redcrystal.png", "assets/images/risingstar.png", "assets/images/acornImage.png"];
-    
+    var randomInt = Math.floor(Math.random()* 109 + 11);
+    var newCount = 0;
     function renderCrystals() {
         for (let i = 0; i < crystalArr.length; i++) {
             var image = $('<img>');
@@ -24,6 +27,23 @@ resetGame();
     $(document).on("click", "img", function() {
         totalSum += parseInt($(this).attr("crystalValue"));
         $('#total').text(totalSum);
-    })
+        console.log(totalSum);
+        
+
+        if (totalSum == random) {    
+        alert('thats exactly right');
+        $('#wins').html(loses++);
+       }
+        else if (totalSum > random) {      
+        $('#loses').html(loses++);
+       }
+         
+        // $('#total').html(newCount);
+     
+});
+
+
+
+      
 
     
