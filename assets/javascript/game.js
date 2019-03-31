@@ -55,3 +55,5 @@ $(document).on("click", "img", function() {
     alert("You WIN");
   }
 });
+// I struggled with a way to reset the entire game to its original state
+// I also struggled with giving the crystals a new value after each win or loss
