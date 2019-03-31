@@ -49,9 +49,10 @@ $(document).on("click", "img", function() {
     $("#loses").text(loses++);
   }
 
-  if (loses > 5) {
+  if (loses > 6) {
     alert("Game Over");
-  } else if (wins === 5) {
+  } else if (wins === 6) {
     alert("You WIN");
+    
   }
 });
