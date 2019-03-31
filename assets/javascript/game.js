@@ -6,7 +6,7 @@ var crystalArr = [
   "assets/images/greencrystal.png",
   "assets/images/redcrystal.png",
   "assets/images/RisingStar.png",
-  "assets/images/acornimage.png"
+  "assets/images/AcornImage.png"
 ];
 var randomInt = Math.floor(Math.random() * 109 + 11);
 var newCount = 0;
