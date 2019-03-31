@@ -6,7 +6,7 @@ var crystalArr = [
   "assets/images/greencrystal.png",
   "assets/images/redcrystal.png",
   "assets/images/RisingStar.png",
-  "assets/images/AcornImage.png" // This image will no respond whether I capitalize it or not It will show the change in the code but not when the page is deployed
+  "assets/images/AcornImage.png" 
 ];
 var randomInt = Math.floor(Math.random() * 109 + 11);
 var newCount = 0;
