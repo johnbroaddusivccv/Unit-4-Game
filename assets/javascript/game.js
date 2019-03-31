@@ -5,8 +5,8 @@ var random;
 var crystalArr = [
   "assets/images/greencrystal.png",
   "assets/images/redcrystal.png",
-  "assets/images/risingstar.png",
-  "assets/images/acornImage.png"
+  "assets/images/Risingstar.png",
+  "assets/images/AcornImage.png"
 ];
 var randomInt = Math.floor(Math.random() * 109 + 11);
 var newCount = 0;
@@ -53,6 +53,5 @@ $(document).on("click", "img", function() {
     alert("Game Over");
   } else if (wins === 6) {
     alert("You WIN");
-    
   }
 });
